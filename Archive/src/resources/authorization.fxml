@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.userinterface.AuthController">
+   <children>
+      <TextField fx:id="loginField" layoutX="225.0" layoutY="174.0" />
+      <PasswordField fx:id="passwordField" layoutX="225.0" layoutY="206.0" />
+      <Button fx:id="loginButton" layoutX="277.0" layoutY="238.0" mnemonicParsing="false" text="log in" />
+      <Text fx:id="bigText" layoutX="238.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="smallText" layoutX="183.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="prease enter your login and password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
